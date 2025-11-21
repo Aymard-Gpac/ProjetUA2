@@ -94,7 +94,7 @@ if(IS_NEW) {
             date_vente    DATE NOT NULL,
             total_vente   REAL    NOT NULL ,
             FOREIGN KEY (boutique_id) REFERENCES boutique(boutique_id),
-            FOREIGN KEY (agent_id) REFERENCES agent_vendeur(agent_id)
+            FOREIGN KEY (agent_id) REFERENCES vendeur(agent_id)
         );
 
        
